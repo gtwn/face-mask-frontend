@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Staatliches;
+  
+    src: url(font/Staatliches-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    --tw-bg-opacity: 1;
+    background-color: rgba(236, 253, 245, var(--tw-bg-opacity));
+}

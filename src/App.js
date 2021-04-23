@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Nav from "./components/Nav"
+import './assets/main.css'
+import 'react-dropzone-uploader/dist/styles.css'
+import Upload from "./components/Upload"
 
 function App() {
+ 
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Nav></Nav>
+      <div className="mt-24 pl-7 pr-8 h-32">
+        <Upload></Upload>
+      </div>
+      
     </div>
   );
 }
