@@ -55,7 +55,7 @@ function Upload() {
                     <label htmlFor="upload-btn" className="cursor-pointer" >
                         <img src={Cloud} alt="upload-icon" width="100px" height="100px"/>
                         <h5 className="mt-3 text-xl" style={{ fontFamily: "Staatliches"}}><b>UPLOAD IMAGE</b></h5>
-                        <p className="-ml-5">(.jpg / .png / .jpeg)</p>
+                        <p className="ml-1">(.jpg / .jpeg)</p>
                     </label>
                 </div>
                 
