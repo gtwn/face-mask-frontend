@@ -15,7 +15,7 @@ function Predict({Preview, Result}) {
             console.log(Result)
             await axios({
                 method: 'POST',
-                url: 'http://localhost:5000/predict',
+                url: 'https://facemask-backend.herokuapp.com/predict',
                 data: form_data,
                 headers: {'Content-Type': 'multipart/form-data'}
                 })

@@ -59,7 +59,7 @@ function Upload() {
                     </label>
                 </div>
                 
-                <input type="file" id="upload-btn" style={{ display: "none" }} accept=".png, .jpeg, .jpg" onChange={handleChange}/>
+                <input type="file" id="upload-btn" style={{ display: "none" }} accept=".jpeg, .jpg" onChange={handleChange}/>
                 
             </div>
         )
