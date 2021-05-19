@@ -22,7 +22,7 @@ function Nav() {
                     window.location.reload()
                 }}></img>
                 <div className="w-2px mr-3"></div>
-                <label className="text-blue-500 text-2xl select-none" style={{fontFamily: "Staatliches"}}>Face Mask Detection</label>
+                <label className="text-blue-500 text-2xl select-none" style={{fontFamily: "Staatliches"}}>Face Mask Detection <span className="text-red-600">(Crop before Detect)</span></label>
                 <label className="absolute right-8 cursor-pointer text-blue-500 text-2xl " style={{fontFamily: "Staatliches"}} onClick={handleOpen}>Developer</label>
             </div>
             <SimpleDialog open={open} onClose={handleClose} />
